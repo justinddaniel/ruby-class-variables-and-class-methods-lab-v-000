@@ -35,5 +35,6 @@ class Song
     @@artists.each do |a|
       @@genre_count[a] ||= +1
     end
+    @@genre_count
   end
 end
