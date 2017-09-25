@@ -37,6 +37,7 @@ class Song
         @@genre_count[a] += 1
       else genre_count[a] = 1
     end
+  end
     @@genre_count
   end
 end
